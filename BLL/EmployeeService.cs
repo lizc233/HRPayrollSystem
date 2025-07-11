@@ -12,6 +12,7 @@ namespace HRPayrollSystem.BLL
     internal class EmployeeService
     {
         
+        //测试1
             public static bool ValidateEmployee(Employee emp, out string errorMsg)
             {
                 if (string.IsNullOrWhiteSpace(emp.Name))
